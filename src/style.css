@@ -1,0 +1,132 @@
+/* body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header start  */
+header {
+ height: 108px;
+ width: 100%;
+ top:0;
+ left: 0;
+ position: sticky;
+ z-index: 3000;
+    
+}
+
+header .logo-name{
+    font-size: 28.4px;
+    font-weight: 600;
+    line-height: 28.4px;
+    font-family: 'Poppins',sans-serif;
+    
+}
+header nav ul li a{
+    font-family: "Raleway",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17.61px    ;
+}
+
+header button{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+   /* start footer */
+   
+   .footer-main {
+    background-image: url('assets/image/footer-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.footer-main::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); 
+    backdrop-filter: blur(6.5px);
+    z-index: 1; 
+}
+
+
+.footer-main > * {
+    position: relative;
+    z-index: 2;
+}
+footer  h1{
+    font-family: 'Bebas Neue',sans-serif
+    ;
+}
+
+/* testimonial */
+.testimonial .testimonial-subtitle {
+    position: relative;
+}
+
+.testimonial .testimonial-subtitle:before {
+    content: '';
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: -15px; /* Adjust as needed for spacing */
+    transform: translateY(-50%); /* Aligns vertically centered */
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    margin-right: 20px; /* Can be adjusted or removed */
+}
+/* book */
+.book {
+    background-image: url('assets/image/newimage.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+    overflow: hidden; 
+}
+.book .book-subtitle {
+    position: relative;
+}
+
+.book .book-subtitle:before {
+    content: '';
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: -15px; /* Adjust as needed for spacing */
+    transform: translateY(-50%); /* Aligns vertically centered */
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    margin-right: 20px; /* Can be adjusted or removed */
+}
+
+
+
+
+.fooditem .fooditem-subtitle {
+    position: relative;
+}
+
+
+.fooditem .fooditem-subtitle:before {
+    content: '';
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: -15px; /* Adjust as needed for spacing */
+    transform: translateY(-50%); /* Aligns vertically centered */
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    margin-right: 20px; /* Can be adjusted or removed */
+}
