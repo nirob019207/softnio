@@ -7,6 +7,7 @@ import { BiBook } from 'react-icons/bi';
 import Book from './booknow/Book';
 import FoodItem from './foodItem/FoodItem';
 import { Banner } from './banner/Banner';
+import { About } from './about/About';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Header/>
       <Banner/>
+      <About/>
       <FoodItem/>
       <Book/>
       <TestimonialMain/>
