@@ -39,7 +39,7 @@ export const About = () => {
               </button>
             ))}
           </div>
-          <h1 className='text-5xl leading-1 text-black font-montserrat'>
+          <h1 className='lg:text-5xl text-2xl leading-1 text-black font-montserrat'>
             {currentTabhead}
 
           </h1>
