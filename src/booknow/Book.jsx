@@ -4,7 +4,7 @@ import { InputField, TextAreaField } from './components/InputFieldComponents'; /
 
 export const Book = () => {
     return (
-        <div className="book max-w-[1320px] container w-full mx-auto mt-40 lg:h-[790px] py-[120px] h-auto">
+        <div className="book max-w-[1320px] container w-full mx-auto mt-40 lg:h-[790px] py-[120px] h-auto" id="book">
             <div className="mb-8">
                 <p className="leading-9 text-primary font-[700] text-[20px] book-subtitle font-roboto ml-[13px]">Book Now</p>
                 <h2 className="lg:text-4xl text-xl font-bold font-Bebas text-white">Book Your Table</h2>
