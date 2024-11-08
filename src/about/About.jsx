@@ -16,7 +16,9 @@ export const About = () => {
 
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-8 py-[150px]">
+         <div className='container'>
+           
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-8 py-[150px]">
       <div>
         <img src={image1} alt="Banner" className="w-full lg:h-[400px]  h-auto object-cover rounded-lg shadow-lg" />
       </div>
@@ -48,5 +50,7 @@ export const About = () => {
         </div>
       </div>
     </div>
+                </div>
+           
   );
 };
